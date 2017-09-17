@@ -1,0 +1,112 @@
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.wrap {
+    width: 70%;
+    margin: 0 auto;
+}
+.disabled{
+    background: #e0e0e0!important;
+}
+
+/*顶部logo*/
+.logo {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/*标题*/
+.title {
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+/*按钮样式*/
+.btn {
+    outline: none;
+    margin-top: 20px;
+    background: #34a8ff;
+    border-radius: 5px;
+    height: 30px;
+    width: 120px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+#upload{
+    margin-left:20px;
+}
+
+/*在线配置区域*/
+.onlineAre {
+    display: none;
+    margin-top: 100px;
+}
+
+.onlineAre div {
+    margin-top: 20px;
+}
+
+#nodeNum {
+    border: 1px solid #34a8ff;
+    border-radius: 6px;
+    padding: 5px;
+    outline: none
+}
+
+/*起始区域开始*/
+.startAre {
+    margin-top: 100px;
+}
+#start{
+    line-height: 1.8;
+}
+.checkedStart1{
+    cursor: pointer;
+}
+.checkedStart{
+    cursor: pointer;
+    margin-left:20px;
+}
+
+/*上传文件区域*/
+.fileAre {
+    display: none;
+    margin-top: 100px;
+}
+.tip{
+    font-size: 10px;
+    color: #34a8ff;
+}
+.tip2{
+    margin-top:50px;
+    font-size: 14px;
+    color:#000;
+}
+#file{
+    display: none;
+}
+.fileLabel{
+    display: block;
+    text-align: center;
+    line-height:30px;
+}
+/*结果显示框*/
+.resultAre {
+    display: none;
+    margin-bottom:100px;
+
+}
+#result{
+    overflow-x: auto;
+    max-height:500px;
+    overflow-y: auto;
+    border: 1px solid #e0e0e0;
+    margin-top: 20px;
+    padding: 10px;
+    outline: none
+}
